@@ -112,3 +112,5 @@ ENV/
 
 # own ignores
 resource/models/
+
+notebooks/tmp/*
