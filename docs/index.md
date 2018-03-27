@@ -6,7 +6,9 @@ title: Deep Learning Course
 
 This course in deep learning focuses on practical aspects of deep learning. 
 
-For the hands-on part you could install anaconda ([details and installation instruction](anaconda.md)) or use the provided a docker container ([details and installation instruction](docker.md)).
+For doing the hands-on part on your own computer you can either install anaconda ([details and installation instruction](anaconda.md)) or use the provided a docker container ([details and installation instruction](docker.md)).
+
+To run some code on a free google GPU server you can follow the [instructions how to use google colab](co.md).
 
 To easily follow the course please make sure that you are familiar with the some [basic math and python skills](prerequistites.md). 
 
@@ -229,10 +231,146 @@ Otherwise the rendering is brolen
      </ul>
   </td>
 </tr>
-</table>
+    <!--  ------------------------------------- -->
+    <!--  Woche 4 -->
+    <!--  ------------------------------------- -->
+    <tr>
+      <td>4</td>
+      <td> 
+      		<b>Convolutional Neural Networks I</b>    
+		<a href="https://www.dropbox.com/s/qezz6pe0fg3uyc5/CNN-Tag4-CNN-presented.pdf?dl=1">slides</a> 
+      		<ul>
+		        <li>Why going beyond fully connected NN?</li> 
+      			<li>What is convolution?</li>      			
+      			<li>Building a CNN</li>
+      		</ul>
+      </td>
+      <td> 
+        <ul>
+	<li>
+	<a href="https://github.com/vdumoulin/conv_arithmetic">Convolution arithmetic</a>
+	</li>
+	<li>
+	<a href="http://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html">demo CNN and activation maps</a>
+	</li>
+        </ul>
+      </td>
+      <td>
+      	<ul>
+	<!--<a<li> finger-exercise ReLu/a>|-->
+	<!--<a href="https://www.dropbox.com/s/yogcjidr7ng3qtb/08a-Schnelluebung-ReLu.pdf?dl=1"> Exercise</a>|-->
+	<!--<a href='https://www.dropbox.com/s/d1se84xdui3uwqz/08a-Schnelluebung-ReLu-solution.pdf?dl=1'> Solution </a> -->
+      	<!--</li> -->
+	<li>
+	07 and 08 CNN <a href="exercises/07_CNN_MNIST"> Exercises</a> |
+	<a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/07_cnn1_mnist.ipynb"> CNN1 Notebook </a>|
+	<a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/07_cnn1_mnist_solution.ipynb"> CNN1 Solution </a>|
+	<a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/08_cnn2_mnist.ipynb"> CNN2 Notebook </a>|		
+	<a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/08_cnn2_mnist_solution.ipynb"> CNN2 Solution </a>	
+	</li>
+	<li>
+      	09 Homework: 8 Faces
+	<a href="https://www.dropbox.com/s/aufw2awv7s0dqm5/8_faces_dataoverview.html?dl=1"> Data overview</a>|
+	<a href="exercises/09_8_faces">Exercise </a>|
+	<a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/09_8_faces_fc.ipynb"> FC Solution</a>
+      	</li>
+	</ul>
+        </td>
+        </tr>
+    <!--  ------------------------------------- -->
+    <!--  Woche 5 -->
+    <!--  ------------------------------------- -->
+    <tr>
+    <td>5</td>
+    <td> 
+    <b>Convolutional Neural Networks II</b> <a href="https://www.dropbox.com/s/dfdj2d3eqbutg54/DL-day5-presented.pdf?dl=1">slides</a> 
+    <ul>
+    <li>Which ingredients are necessary to get a well performing CNN?</li>
+    <li>What to do in case of limited data? </li>
+    <li>What is a CNN looking at?</li>
+    <li>Checking out challange-winning CNN architectures</li>
+    </ul>
+    </td>
+    <td> 
+    <ul>
+    <li>
+    <a href="https://transcranial.github.io/keras-js/#/mnist-cnn">live CNN in browser</a>
+    </li>
+    <li>
+    <a href="http://yosinski.com/deepvis">Understanding CNNs through visualization</a>
+    </li>
+    <li>
+    <a href="http://cs231n.github.io/understanding-cnn/">cs231 on visualization CNNs</a>
+    </li>
+    <li>
+    <a href="https://blog.keras.io/category/demo.html">Use keras to visualize which image features activate a feature map</a>
+    </li>
+    </ul>
+    </td>
+    <td>
+    <ul>
+    <li> 
+    10 Homework: 8 faces <a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/10_8_faces_cnn.ipynb"> possible Solution</a> 
+    </li>
+    <li> 
+    11 transfer learning<a href="exercises/11_8_faces_fine_tuning"> Exercises</a> |
+    <a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/11_8_faces_fine_tuning.ipynb"> Notebook </a>|
+    <a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/11_8_faces_fine_tuning_solution.ipynb"> Solution</a>
+    </li>
+    <!-- <li>
+    13a optimized image<a href="https://www.dropbox.com/s/956jxouq0eqisn8/13-exercises-optimized-image.pdf?dl=1"> Exercise</a>|
+    <a href="https://www.dropbox.com/s/5zyntjgff9k5cgm/13-exercises-optimized-image-solution.pdf?dl=1">Solution</a>|
+    <a href="https://github.com/tensorchiefs/dl_course/blob/master/notebooks/13-optimize-image.ipynb"> Notebook</a>
+    </li>		
+    <li>
+    13b adversarial example<a href="https://www.dropbox.com/s/sf8k96kxinknzfh/14-adversarial-example.pdf?dl=1"> Exercises</a> |
+    <a href="https://www.dropbox.com/s/8cgm7cvr1lcqfsd/14-adversarial-example-solution.pdf?dl=1"> Solution</a>
+    </li>  -->
+    </ul>
+   </td>
+ </tr>
+   <!--  ------------------------------------- -->
+    <!--  Woche 6 -->
+    <!--  ------------------------------------- -->
+    <tr>
+    <td>6</td>
+     <td> 
+     <b>Modern CNN Architectures</b> <a href="https://www.dropbox.com/s/fy6x7rqnuvpxla6/DL-day6-modern-CNN-architectures.pdf?dl=1">slides</a> 
+     <b>Recurent Neural Networks</b> <a href="https://www.dropbox.com/s/vzcpzxg8eg5rx26/lecture06_before.pdf?dl=1">slides</a> 
+     <ul>
+     <li>Recurrent Neural Networks</li>
+     <li>Vanishing Gradient Problem</li>
+     <li>GRUs</li>
+     </ul>
+     </td>
+     <td> 
+     <ul>
+     <li>Karpathy (May 2015) The unreasonable effectiveness of Recurrent Neural Networks <a href='http://karpathy.github.io/2015/05/21/rnn-effectiveness/'>(blog post)</a></li>  
+      <li>Colah (August 2015) Understanding LSTM Networks <a href='http://colah.github.io/posts/2015-08-Understanding-LSTMs/'>(blog post)</a></li>
+      <li><a href="http://www.deeplearningbook.org/contents/rnn.html">DL-book chapter 10 </a></li>
+      </ul>
+      </td>
+      <td>
+      <ul>
+      <li>
+	12 Simple RNN <a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/12_RNN_simple.ipynb"> Notebook </a>|
+         <a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/12_RNN_simple_solution.ipynb"> Solution</a>
+      </li>
+	<li>
+	13 Stateful RNN <a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/13_RNN_stateful.ipynb"> Notebook </a>|
+         <a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/13_RNN_stateful_solution.ipynb"> Solution</a>
+      </li>      
+      <li>
+	14 Char RNN (Optional) <a href="exercises/15_rnn"> Exercise</a> |
+	<a href="https://github.com/tensorchiefs/dl_course/blob/master/notebooks/15_char_rnn_didactic_prediction_solution.ipynb"> Notebook</a> 
+      </li> 		
+      </ul>
+      </td>
+    </tr>	
+	
+	
+</table>  
  
-
-
 
 
 
