@@ -8,9 +8,14 @@ This course in deep learning focuses on practical aspects of deep learning.
 
 For doing the hands-on part on your own computer you can either install anaconda ([details and installation instruction](anaconda.md)) or use the provided a docker container ([details and installation instruction](docker.md)).
 
+To easily follow the course please make sure that you are familiar with the some [basic math and python skills](prerequistites.md). 
+
+## Info for the projects
+You can join together in small groups and choose a topic for your DL project. You should prepare a poster and a spotlight talk (5 minutes) which you will present on the last course day. To get some hints how to create a good poster you can check out the links that are provieded in <a href="https://www.dropbox.com/s/u1f6mqk4pc3uhxe/poster-guidelines.pdf?dl=1">poster_guidelines.pdf</a> 
+
 To run some code on a free google GPU server you can follow the [instructions how to use google colab](co.md).
 
-To easily follow the course please make sure that you are familiar with the some [basic math and python skills](prerequistites.md). 
+If you need to prepare a hdf5 file from your images you can have a look on an   <a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/data_prep.ipynb"> example Notebook.</a> 
 
 ## Other resources
 We took inspiration (and sometimes slides / figures) from the following resources.
@@ -336,7 +341,7 @@ Otherwise the rendering is brolen
     <td>6</td>
      <td> 
      <b>Modern CNN Architectures</b> <a href="https://www.dropbox.com/s/fy6x7rqnuvpxla6/DL-day6-modern-CNN-architectures.pdf?dl=1">slides</a> 
-     <b>Recurent Neural Networks</b> <a href="https://www.dropbox.com/s/vzcpzxg8eg5rx26/lecture06_before.pdf?dl=1">slides</a> 
+     <b>Recurent Neural Networks</b> <a href="https://www.dropbox.com/s/h4t2sivfd8rpn3p/lecture06_RNN.pdf?dl=1">slides</a> 
      <ul>
      <li>Recurrent Neural Networks</li>
      <li>Vanishing Gradient Problem</li>
@@ -361,13 +366,48 @@ Otherwise the rendering is brolen
          <a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/13_RNN_stateful_solution.ipynb"> Solution</a>
       </li>      
       <li>
-	14 Char RNN (Optional) <a href="exercises/15_rnn"> Exercise</a> |
+	14 Char RNN (Optional) <a href="exercises/14_rnn"> Exercise</a> |
 	<a href="https://github.com/tensorchiefs/dl_course/blob/master/notebooks/15_char_rnn_didactic_prediction_solution.ipynb"> Notebook</a> 
       </li> 		
       </ul>
       </td>
     </tr>	
-	
+   <!--  ------------------------------------- -->
+   <!--  Woche 7 -->
+   <!--  ------------------------------------- -->
+    <tr>
+      <td>7</td>
+      <td> 
+	      <li>
+       <b>Topic I: RNN continued, GRU, LSTM </b> </li> <a href="https://www.dropbox.com/s/rne3pha22vvw8nm/DL-day7-RNN-part2-before.pdf?dl=1">slides</a>
+	<li>
+      <b>Topic II: Unsupervised Feature Construction for pattern recognition and classification </b>  <a href="https://www.dropbox.com/s/mnn45s87wac9ju9/DL-day7-unsupervised-before.pdf?dl=1">slides</a> 
+			      </li>
+      <ul>
+      <li>Using pre-trained CNNs as feature extractor</li>
+      <li>Using unsupervised constructed features for pattern recognition in 2D plots</li>
+      <li>Using unsupervised constructed features for classifcation with few labeled instances</li>			
+      </ul>
+      </td>
+      <td> 
+        <ul>
+	<li><a href="https://www.dropbox.com/s/dvq5upb5nof090x/Bengio2014-representation-learning.pdf?dl=1">Bengio's Review on representation learning</a>
+        </li>
+      </ul>
+      </td>
+      <td>
+      <ul>
+      <li>		
+      15 Using unsupervised constructed features for pattern recognition in 2D plots: <a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/15_unsupervised_features_no_solution.ipynb"> Notebook </a>|
+         <a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/15_unsupervised_features_solution.ipynb"> Solution</a>
+      </li>
+      <li>	
+       16 Using unsupervised constructed features for classifcation with few labeled instances:<a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/16_classification_few_labels_no_solution.ipynb"> Notebook </a>|
+         <a href="https://github.com/tensorchiefs/dl_course_2018/blob/master/notebooks/16_classification_few_labels_solution.ipynb"> Solution</a>
+      </li>
+      </ul>
+      </td>
+    </tr>
 	
 </table>  
  
